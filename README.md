@@ -9,11 +9,7 @@ Numpy
 
 
 ## Installation
-''' 
-pip install -i https://test.pypi.org/simple/ Ficamacos 
-'''
-or
-'''
-pip install Ficamacos
-'''
 
+```
+pip install Ficamacos
+```
