@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
 
 
 '''
@@ -24,11 +23,6 @@ model1 = model.GBM(param1,r,T)
 method.Filon(model1,S,K)
 method.FFT(model1,S,K)
 
-
-
-
-
-# In[ ]:
 
 
 ## Case 2 ###
