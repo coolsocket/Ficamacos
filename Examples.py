@@ -20,8 +20,8 @@ K = 20
 
 param1 = model.GBMParam(sigma = sigma)
 model1 = model.GBM(param1,r,T)
-method.Filon(model1,S,K)
-method.FFT(model1,S,K)
+print(method.Filon(model1,S,K))
+print(method.FFT(model1,S,K))
 
 
 
@@ -36,6 +36,6 @@ v=0.1
 
 param2 = model.VGParam(sigma = sigma, theta = theta, v = v)
 model2 = model.VG(param2,r,T)
-method.Filon(model2,S,K)
-method.COS(model2,S,K,L=3)
+print(method.Filon(model2,S,K))
+print(method.COS(model2,S,K,L=3))
 
